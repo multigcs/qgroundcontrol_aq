@@ -103,7 +103,7 @@ DEFINES *= QT_MESSAGELOGCONTEXT
 DEFINES *= QT_USE_QSTRINGBUILDER
 DEFINES += MAVLINK_NO_DATA
 # set to build w/out QtSpeech
-#DEFINES += NO_TEXT_TO_SPEECH
+DEFINES += NO_TEXT_TO_SPEECH
 # set to build with VLC support # Windows only #
 #DEFINES += QGC_USE_VLC
 # Turn off serial port warnings
