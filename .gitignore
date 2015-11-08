@@ -54,3 +54,11 @@ thirdParty/qserialport/lib/
 /fixqt4headers.pl
 /fixqt.txt
 *.qm
+
+Makefile
+bin/
+core
+
+
+
+
