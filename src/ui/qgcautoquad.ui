@@ -10857,6 +10857,28 @@ padding: 1px 5px;</string>
                </widget>
               </item>
               <item>
+               <widget class="QGroupBox" name="groupBox_IMU_MPU_LPF">
+                <property name="title">
+                 <string>MPU6000</string>
+                </property>
+                <layout class="QFormLayout" name="formLayout_49">
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_IMU_MPU_LPF">
+                   <property name="text">
+                    <string>Lowpass-Filter:</string>
+                   </property>
+                   <property name="toolTip">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MPU6000 Lowpass-Filter in HZ (steps: 0, 5, 10, 20, 42, 256)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QLineEdit" name="IMU_MPU_LPF"/>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
                <spacer name="verticalSpacer_13">
                 <property name="orientation">
                  <enum>Qt::Vertical</enum>
